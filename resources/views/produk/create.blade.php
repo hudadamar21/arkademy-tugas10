@@ -3,7 +3,7 @@
   <div class="row">
     <div class="col-md-6">
       <div class="card shadow">
-        <h5 class="card-header">Featured</h5>
+        <h5 class="card-header">Tambah Produk</h5>
         <div class="card-body">
           <form action="{{ route('produk.create') }}" method="POST">
             @csrf

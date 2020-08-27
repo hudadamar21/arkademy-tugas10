@@ -3,7 +3,7 @@
   <div class="row">
     <div class="col-md-6">
       <div class="card shadow">
-        <h5 class="card-header">Featured</h5>
+        <h5 class="card-header">Edit Produk</h5>
         <div class="card-body">
           <form action="{{ route('produk.update', $produk->id) }}" method="POST">
             @csrf
@@ -24,7 +24,7 @@
               <label for="keterangan">Keterangan</label>
               <textarea type="text" class="form-control" name="keterangan" id="keterangan" placeholder="keterangan">{{ $produk->keterangan }}</textarea>
             </div>
-            <button type="submit" class="btn btn-primary">Save</button>
+            <button type="submit" class="btn btn-primary">Update</button>
           </form>
         </div>
       </div>
